@@ -1,5 +1,6 @@
-Store Manager - Shopping Center
-Project Description
+## Store Manager - Shopping Center
+
+Project Description :
 This project was developed as the final challenge for the Laboratory I course. It is a store management system for a Shopping Center, which uses several fundamental Java programming concepts such as object-oriented programming, inheritance, polymorphism, and array manipulation.
 
 The system manages the stores in the shopping center, including their products, addresses, foundation dates, and also allows modifications, report generation, and other features.
