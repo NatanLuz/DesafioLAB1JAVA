@@ -1,55 +1,49 @@
-# Gerenciador de Lojas - Shopping Center
+Store Manager - Shopping Center
+Project Description
+This project was developed as the final challenge for the Laboratory I course. It is a store management system for a Shopping Center, which uses several fundamental Java programming concepts such as object-oriented programming, inheritance, polymorphism, and array manipulation.
 
-## Descrição do Projeto
+The system manages the stores in the shopping center, including their products, addresses, foundation dates, and also allows modifications, report generation, and other features.
 
-Este projeto foi desenvolvido como desafio final da disciplina de Laboratório I. Trata-se de um sistema gerenciador de lojas em um Shopping Center, que utiliza diversos conceitos fundamentais de programação em Java, como orientação a objetos, herança, polimorfismo e manipulação de arrays.
+Features and Challenge Stages
+Stage 1: Class Creation
+Development of the basic classes: Loja (Store), Produto (Product), Endereco (Address), and Data (Date).
 
-O sistema gerencia as lojas presentes no shopping, incluindo seus produtos, endereços, datas de fundação, além de permitir alterações, emissões de relatórios e outras funcionalidades.
+Implementation of attributes, constructors, getters, setters, and specific methods such as toString, salary expenses calculation, and date validation.
 
----
+Stage 2: Class Association
+Updating classes for associations between them (e.g., Loja with Endereco and Data).
 
-## Funcionalidades e Etapas do Desafio
+Implementation of a menu for creating stores and products via user input.
 
-### Etapa 1: Criação de Classes
-- Desenvolvimento das classes básicas: `Loja`, `Produto`, `Endereco` e `Data`.
-- Implementação de atributos, métodos construtores, getters, setters, e métodos específicos como `toString`, cálculo de gastos com salários, e validação de datas.
+Expired products check.
 
-### Etapa 2: Associação entre Classes
-- Atualização das classes para associação entre elas (ex.: `Loja` com `Endereco` e `Data`).
-- Implementação de menu para criação de lojas e produtos via entrada do usuário.
-- Verificação de produtos vencidos.
+Stage 3: Inheritance and Polymorphism
+Creation of Loja subclasses for different store types: Cosmetico (Cosmetics), Vestuario (Clothing), Bijuteria (Jewelry), Alimentacao (Food), and Informatica (IT).
 
-### Etapa 3: Herança e Polimorfismo
-- Criação de subclasses de `Loja` para diferentes tipos de lojas: `Cosmetico`, `Vestuario`, `Bijuteria`, `Alimentacao` e `Informatica`.
-- Implementação de atributos específicos para cada subclasse e sobrescrição dos métodos `toString`.
+Implementation of specific attributes for each subclass and overriding the toString method.
 
-### Etapa 4: Arrays
-- Inclusão de arrays para controle do estoque de produtos em cada loja e das lojas no shopping.
-- Métodos para inserção, remoção e listagem de produtos e lojas.
-- Implementação de funcionalidades específicas, como contagem de lojas por tipo e identificação da loja de informática com seguro mais caro.
+Stage 4: Arrays
+Use of arrays to manage product stock in each store and to manage the stores in the shopping center.
 
----
+Methods for inserting, removing, and listing products and stores.
 
-## Tecnologias Utilizadas
+Implementation of specific features such as counting stores by type and identifying the IT store with the most expensive insurance.
 
-- Linguagem: Java
-- Paradigma: Programação Orientada a Objetos (POO)
-- Controle de versão: Git e GitHub
+Technologies Used
+Language: Java
+Paradigm: Object-Oriented Programming (OOP)
 
----
+Version Control: Git and GitHub
 
-## Como Executar
+How to Run
+Clone this repository:
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/NatanLuz/DesafioLAB1JAVA.git
+git clone https://github.com/NatanLuz/DesafioLAB1JAVA.git
 
+Import the project into your favorite Java IDE (Eclipse, IntelliJ, NetBeans, etc.)
+Compile and run the Principal class to start the program.
+Follow the menu instructions to create stores and products.
 
-Importe o projeto na sua IDE Java favorita (Eclipse, IntelliJ, NetBeans, etc).
+Contact
 
-Compile e execute a classe Principal para iniciar o programa.
-
-Siga as instruções do menu para criar lojas e produtos.
-
-Contato
-Natan Luz – https://www.linkedin.com/in/natan-da-luz-3156582a2/
+LinkedIn https://www.linkedin.com/in/natan-da-luz-3156582a2/
