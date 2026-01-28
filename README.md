@@ -1,50 +1,120 @@
-## Store Manager - Shopping Center
+######### Desafio Gerenciador de Lojas – Shopping Center
 
-Project Description :
-This project was developed as the final challenge for the Laboratory I course. It is a store management system for a Shopping Center, which uses several fundamental Java programming concepts such as object-oriented programming, inheritance, polymorphism, and array manipulation.
+## Descrição do Projeto
 
-The system manages the stores in the shopping center, including their products, addresses, foundation dates, and also allows modifications, report generation, and other features.
+Este projeto foi desenvolvido como desafio final da disciplina Laboratório I. Trata-se de um sistema de gerenciamento de lojas de um Shopping Center, que utiliza diversos conceitos fundamentais da programação em Java, como Programação Orientada a Objetos (POO), herança, polimorfismo e manipulação de arrays.
 
-Features and Challenge Stages
-Stage 1: Class Creation
-Development of the basic classes: Loja (Store), Produto (Product), Endereco (Address), and Data (Date).
+O sistema permite gerenciar as lojas do shopping, incluindo seus produtos, endereços, datas de fundação, além de possibilitar alterações, geração de relatórios e outras funcionalidades.
 
-Implementation of attributes, constructors, getters, setters, and specific methods such as toString, salary expenses calculation, and date validation.
+## Funcionalidades e Etapas do Desafio
 
-Stage 2: Class Association
-Updating classes for associations between them (e.g., Loja with Endereco and Data).
+ Etapa 1 – Criação de Classes
 
-Implementation of a menu for creating stores and products via user input.
+Desenvolvimento das classes base:
 
-Expired products check.
+Loja
 
-Stage 3: Inheritance and Polymorphism
-Creation of Loja subclasses for different store types: Cosmetico (Cosmetics), Vestuario (Clothing), Bijuteria (Jewelry), Alimentacao (Food), and Informatica (IT).
+Produto
 
-Implementation of specific attributes for each subclass and overriding the toString method.
+Endereco
 
-Stage 4: Arrays
-Use of arrays to manage product stock in each store and to manage the stores in the shopping center.
+Data
 
-Methods for inserting, removing, and listing products and stores.
+Implementação de:
 
-Implementation of specific features such as counting stores by type and identifying the IT store with the most expensive insurance.
+Atributos
 
-Technologies Used
-Language: Java
-Paradigm: Object-Oriented Programming (OOP)
+Construtores
 
-Version Control: Git and GitHub
+Getters e Setters
 
-How to Run
-Clone this repository:
+Métodos específicos como:
+
+toString
+
+Cálculo de gastos com salários
+
+Validação de datas
+
+ Etapa 2 – Associação entre Classes
+
+Associação entre classes (ex: Loja com Endereco e Data)
+
+Implementação de um menu interativo para:
+
+Cadastro de lojas
+
+Cadastro de produtos via entrada do usuário
+
+Verificação de produtos vencidos
+
+ Etapa 3 – Herança e Polimorfismo
+
+Criação de subclasses da classe Loja:
+
+Cosmetico
+
+Vestuario
+
+Bijuteria
+
+Alimentacao
+
+Informatica
+
+Implementação de:
+
+Atributos específicos para cada tipo de loja
+
+Sobrescrita do método toString
+
+ Etapa 4 – Uso de Arrays
+
+Utilização de arrays para:
+
+Gerenciar o estoque de produtos de cada loja
+
+Gerenciar as lojas do shopping
+
+Implementação de métodos para:
+
+Inserir produtos
+
+Remover produtos
+
+Listar produtos
+
+Inserir e listar lojas
+
+Funcionalidades adicionais:
+
+Contar lojas por tipo
+
+Identificar a loja de Informática com o maior valor de seguro
+
+🛠 Tecnologias Utilizadas
+
+Linguagem: Java
+
+Paradigma: Programação Orientada a Objetos (POO)
+
+Controle de Versão: Git e GitHub
+
+▶️ Como Executar o Projeto
+
+Clone este repositório:
 
 git clone https://github.com/NatanLuz/DesafioLAB1JAVA.git
 
-Import the project into your favorite Java IDE (Eclipse, IntelliJ, NetBeans, etc.)
-Compile and run the Principal class to start the program.
-Follow the menu instructions to create stores and products.
+Importe o projeto em sua IDE Java preferida:
 
-Contact
+Eclipse
+IntelliJ IDEA
+NetBeans
+Compile e execute a classe Principal.
+Utilize o menu interativo para cadastrar lojas e produtos.
 
-LinkedIn https://www.linkedin.com/in/natan-da-luz-3156582a2/
+📬 Contato
+
+LinkedIn:
+https://www.linkedin.com/in/natan-da-luz-3156582a2/
