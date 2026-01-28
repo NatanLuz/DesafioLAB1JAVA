@@ -1,4 +1,4 @@
-######### Desafio Gerenciador de Lojas – Shopping Center
+## Desafio Gerenciador de Lojas – Shopping Center
 
 ## Descrição do Projeto
 
