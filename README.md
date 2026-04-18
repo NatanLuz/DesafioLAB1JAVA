@@ -1,6 +1,6 @@
 ## Desafio Gerenciador de Lojas – Shopping Center
 
-## Descrição do Projeto
+## Descrição do Projeto feito e executado com JAVA.
 
 Este projeto foi desenvolvido como desafio final da disciplina Laboratório I. Trata-se de um sistema de gerenciamento de lojas de um Shopping Center, que utiliza diversos conceitos fundamentais da programação em Java, como Programação Orientada a Objetos (POO), herança, polimorfismo e manipulação de arrays.
 
