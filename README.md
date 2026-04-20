@@ -1,120 +1,144 @@
-## Desafio Gerenciador de Lojas – Shopping Center
+# Sistema de Gerenciamento de Lojas - Shopping Center (Java)
 
-## Descrição do Projeto feito e executado com JAVA.
+Aplicacao em Java desenvolvida para gerenciamento de lojas em um shopping center, utilizando conceitos de Programacao Orientada a Objetos (POO), como heranca, polimorfismo e associacao entre classes.
 
-Este projeto foi desenvolvido como desafio final da disciplina Laboratório I. Trata-se de um sistema de gerenciamento de lojas de um Shopping Center, que utiliza diversos conceitos fundamentais da programação em Java, como Programação Orientada a Objetos (POO), herança, polimorfismo e manipulação de arrays.
+---
 
-O sistema permite gerenciar as lojas do shopping, incluindo seus produtos, endereços, datas de fundação, além de possibilitar alterações, geração de relatórios e outras funcionalidades.
+## Problema Resolvido
 
-## Funcionalidades e Etapas do Desafio
+A gestao manual de lojas e seus produtos em um shopping pode gerar desorganizacao, dificuldade de controle e baixa visibilidade sobre informacoes importantes, como estoque, categorias de lojas e dados operacionais.
 
- Etapa 1 – Criação de Classes
+Este projeto propoe uma solucao estruturada para organizar essas informacoes de forma programatica, aplicando conceitos fundamentais de modelagem orientada a objetos.
 
-Desenvolvimento das classes base:
+---
 
-Loja
+## Solucao Proposta
 
-Produto
+O sistema implementa um modelo orientado a objetos para representar lojas, produtos e suas relacoes, permitindo cadastro, manipulacao e consulta de dados por meio de um menu interativo em console.
 
-Endereco
+A arquitetura utiliza:
 
-Data
+- Classes base e especializadas
+- Associacao entre entidades
+- Heranca e polimorfismo para diferentes tipos de loja
+- Estruturas de dados (arrays) para gerenciamento em memoria
 
-Implementação de:
+---
 
-Atributos
+## Funcionalidades
 
-Construtores
+- Cadastro de lojas
+- Cadastro de produtos
+- Listagem de lojas e produtos
+- Verificacao de produtos vencidos
+- Contagem de lojas por tipo
+- Identificacao da loja de informatica com maior valor de seguro
+- Insercao e remocao de produtos no estoque
 
-Getters e Setters
+---
 
-Métodos específicos como:
+## Modelagem do Sistema
 
-toString
+### Classes principais
 
-Cálculo de gastos com salários
+- `Loja`
+- `Produto`
+- `Endereco`
+- `Data`
 
-Validação de datas
+### Subclasses de Loja
 
- Etapa 2 – Associação entre Classes
+- `Cosmetico`
+- `Vestuario`
+- `Bijuteria`
+- `Alimentacao`
+- `Informatica`
 
-Associação entre classes (ex: Loja com Endereco e Data)
+---
 
-Implementação de um menu interativo para:
+## Conceitos de POO Aplicados
 
-Cadastro de lojas
+- **Encapsulamento**: uso de atributos privados com getters e setters
+- **Heranca**: especializacao da classe `Loja`
+- **Polimorfismo**: sobrescrita de metodos como `toString()`
+- **Associacao**: relacionamento entre Loja, Endereco e Data
 
-Cadastro de produtos via entrada do usuário
+---
 
-Verificação de produtos vencidos
+## Regras e Logica do Sistema
 
- Etapa 3 – Herança e Polimorfismo
+- Cada loja possui endereco e data de fundacao associados
+- Produtos sao gerenciados dentro de cada loja
+- Verificacao de validade e feita com base em comparacao de datas
+- A loja de informatica com maior seguro e identificada por comparacao de valores
+- O sistema opera com arrays para controle de dados em memoria
 
-Criação de subclasses da classe Loja:
+---
 
-Cosmetico
+## Estrutura do Projeto
 
-Vestuario
+```text
+.
+├── src/
+│   ├── Loja.java
+│   ├── Produto.java
+│   ├── Endereco.java
+│   ├── Data.java
+│   ├── subclasses/
+│   └── Principal.java
+```
 
-Bijuteria
+---
 
-Alimentacao
+## Tecnologias Utilizadas
 
-Informatica
+- **Java**: linguagem principal
+- **POO (Programacao Orientada a Objetos)**: base do sistema
+- **Git/GitHub**: versionamento
 
-Implementação de:
+---
 
-Atributos específicos para cada tipo de loja
+## Como Executar
 
-Sobrescrita do método toString
+### 1) Clonar o repositorio
 
- Etapa 4 – Uso de Arrays
-
-Utilização de arrays para:
-
-Gerenciar o estoque de produtos de cada loja
-
-Gerenciar as lojas do shopping
-
-Implementação de métodos para:
-
-Inserir produtos
-
-Remover produtos
-
-Listar produtos
-
-Inserir e listar lojas
-
-Funcionalidades adicionais:
-
-Contar lojas por tipo
-
-Identificar a loja de Informática com o maior valor de seguro
-
-🛠 Tecnologias Utilizadas
-
-Linguagem: Java
-
-Paradigma: Programação Orientada a Objetos (POO)
-
-Controle de Versão: Git e GitHub
-
-▶️ Como Executar o Projeto
-
-Clone este repositório:
-
+```bash
 git clone https://github.com/NatanLuz/DesafioLAB1JAVA.git
+cd DesafioLAB1JAVA
+```
 
-Importe o projeto em sua IDE Java preferida:
+### 2) Importar na IDE
 
-Eclipse
-IntelliJ IDEA
-NetBeans
-Compile e execute a classe Principal.
-Utilize o menu interativo para cadastrar lojas e produtos.
+- Eclipse
+- IntelliJ IDEA
+- NetBeans
 
-📬 Contato
+### 3) Compilar e executar
+
+- Executar a classe `Principal.java`
+- Utilizar o menu interativo no console para:
+  - Cadastrar lojas
+  - Gerenciar produtos
+  - Visualizar relatorios
+
+---
+
+## Possiveis Melhorias
+
+- Substituir arrays por estruturas dinamicas (`ArrayList`)
+- Persistencia de dados com banco de dados
+- Interface grafica (JavaFX ou Swing)
+- API para integracao externa
+- Validacoes mais robustas de entrada
+
+---
+
+## Autor
+
+Natan Da Luz
+
+Desenvolvedor Backend (PHP | Python | Java)
 
 LinkedIn:
+
 https://www.linkedin.com/in/natan-da-luz-3156582a2/
