@@ -123,16 +123,6 @@ cd DesafioLAB1JAVA
 
 ---
 
-## Possiveis Melhorias
-
-- Substituir arrays por estruturas dinamicas (`ArrayList`)
-- Persistencia de dados com banco de dados
-- Interface grafica (JavaFX ou Swing)
-- API para integracao externa
-- Validacoes mais robustas de entrada
-
----
-
 ## Autor
 
 Natan Da Luz
