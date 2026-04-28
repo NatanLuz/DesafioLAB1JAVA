@@ -123,12 +123,12 @@ cd DesafioLAB1JAVA
 
 ---
 
-## Autor
+## Autor do Projeto
 
 Natan Da Luz
 
-Desenvolvedor Backend (PHP | Python | Java)
+Desenvolvedor Backend 
 
-LinkedIn:
+LinkedIn: https://www.linkedin.com/in/natan-da-luz-3156582a2/
 
-https://www.linkedin.com/in/natan-da-luz-3156582a2/
+E-mail: natandaluz01@gmail.com
