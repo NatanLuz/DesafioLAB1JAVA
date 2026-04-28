@@ -129,6 +129,8 @@ Natan Da Luz
 
 Desenvolvedor Backend 
 
+Contato:
+
 LinkedIn: https://www.linkedin.com/in/natan-da-luz-3156582a2/
 
 E-mail: natandaluz01@gmail.com
