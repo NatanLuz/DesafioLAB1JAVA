@@ -1,4 +1,4 @@
-# Sistema de Gerenciamento de Lojas - Shopping Center (Java)
+# Sistema de Gerenciamento de Lojas - ShoppingCenter (Java)
 
 Aplicacao em Java desenvolvida para gerenciamento de lojas em um shopping center, utilizando conceitos de Programacao Orientada a Objetos (POO), como heranca, polimorfismo e associacao entre classes.
 
