@@ -8,7 +8,7 @@ Aplicacao em Java desenvolvida para gerenciamento de lojas em um shopping center
 
 A gestao manual de lojas e seus produtos em um shopping pode gerar desorganizacao, dificuldade de controle e baixa visibilidade sobre informacoes importantes, como estoque, categorias de lojas e dados operacionais.
 
-Este projeto propoe uma solucao estruturada para organizar essas informacoes de forma programatica, aplicando conceitos fundamentais de modelagem orientada a objetos.
+Este projeto propõe uma solução estruturada para organizar essas informacoes de forma programatica, aplicando conceitos fundamentais de modelagem orientada a objetos.
 
 ---
 
