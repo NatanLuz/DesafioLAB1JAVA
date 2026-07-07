@@ -12,7 +12,7 @@ Este projeto propõe uma solução estruturada para organizar essas informacoes 
 
 ---
 
-## Solucao Proposta
+## Solução Proposta
 
 O sistema implementa um modelo orientado a objetos para representar lojas, produtos e suas relacoes, permitindo cadastro, manipulacao e consulta de dados por meio de um menu interativo em console.
 
@@ -123,7 +123,7 @@ cd DesafioLAB1JAVA
 
 ---
 
-## Autor do Projeto
+## Autor 
 
 Natan Da Luz
 
