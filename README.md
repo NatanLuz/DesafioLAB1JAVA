@@ -1,81 +1,107 @@
 # Sistema de Gerenciamento de Lojas - ShoppingCenter (Java)
 
-Aplicacao em Java desenvolvida para gerenciamento de lojas em um shopping center, utilizando conceitos de Programacao Orientada a Objetos (POO), como heranca, polimorfismo e associacao entre classes.
+## 📖 Sobre o projeto
 
----
+O **Sistema de Gerenciamento de Lojas - ShoppingCenter** é uma aplicação Java executada em console para representar e administrar lojas e produtos de um shopping center.
 
-## Problema Resolvido
+O projeto foi desenvolvido para aplicar conceitos fundamentais de Programação Orientada a Objetos e modelagem de sistemas. A solução organiza o domínio em classes, subclasses e associações, permitindo compreender na prática encapsulamento, herança, polimorfismo e sobrescrita de métodos.
 
-A gestao manual de lojas e seus produtos em um shopping pode gerar desorganizacao, dificuldade de controle e baixa visibilidade sobre informacoes importantes, como estoque, categorias de lojas e dados operacionais.
+Os dados são mantidos em arrays durante a execução. A aplicação não possui persistência e utiliza um menu interativo para cadastrar, consultar e manipular as informações.
 
-Este projeto propõe uma solução estruturada para organizar essas informacoes de forma programatica, aplicando conceitos fundamentais de modelagem orientada a objetos.
+### Modelagem
 
----
+As classes principais representam os elementos compartilhados pelo domínio:
 
-## Solução Proposta
+- `Loja`;
+- `Produto`;
+- `Endereco`;
+- `Data`.
 
-O sistema implementa um modelo orientado a objetos para representar lojas, produtos e suas relacoes, permitindo cadastro, manipulacao e consulta de dados por meio de um menu interativo em console.
+A classe `Loja` é especializada nas seguintes subclasses:
 
-A arquitetura utiliza:
+- `Cosmetico`;
+- `Vestuario`;
+- `Bijuteria`;
+- `Alimentacao`;
+- `Informatica`.
 
-- Classes base e especializadas
-- Associacao entre entidades
-- Heranca e polimorfismo para diferentes tipos de loja
-- Estruturas de dados (arrays) para gerenciamento em memoria
+### Conceitos de POO
 
----
+- **Encapsulamento:** atributos privados acessados por getters e setters;
+- **herança:** especialização da classe `Loja`;
+- **polimorfismo:** comportamento específico nas subclasses;
+- **associação:** relacionamento entre loja, endereço, data e produtos;
+- **sobrescrita:** redefinição de métodos como `toString()`;
+- **organização em classes:** separação das responsabilidades do domínio.
 
-## Funcionalidades
+## ✨ Funcionalidades
 
-- Cadastro de lojas
-- Cadastro de produtos
-- Listagem de lojas e produtos
-- Verificacao de produtos vencidos
-- Contagem de lojas por tipo
-- Identificacao da loja de informatica com maior valor de seguro
-- Insercao e remocao de produtos no estoque
+- Cadastro de lojas;
+- cadastro de produtos;
+- listagem das lojas;
+- listagem dos produtos;
+- inserção de produtos no estoque de uma loja;
+- remoção de produtos;
+- verificação de produtos vencidos por comparação de datas;
+- contagem de lojas por categoria;
+- identificação da loja de informática com o maior valor de seguro;
+- gerenciamento pelo menu interativo no console.
 
----
+### Regras do sistema
 
-## Modelagem do Sistema
+- Cada loja possui endereço e data de fundação associados;
+- os produtos são gerenciados dentro das lojas;
+- a validade é verificada por meio da comparação entre datas;
+- a loja de informática com o maior seguro é identificada pela comparação dos valores;
+- os dados permanecem em memória durante a execução.
 
-### Classes principais
+## 🖼️ Screenshots
 
-- `Loja`
-- `Produto`
-- `Endereco`
-- `Data`
+O projeto não possui capturas de tela no momento. Imagens do menu interativo e de exemplos de execução poderão ser adicionadas futuramente.
 
-### Subclasses de Loja
+## 🚀 Tecnologias
 
-- `Cosmetico`
-- `Vestuario`
-- `Bijuteria`
-- `Alimentacao`
-- `Informatica`
+- **Java:** implementação da aplicação;
+- **Programação Orientada a Objetos:** modelagem e organização do domínio;
+- **Git:** controle de versão;
+- **GitHub:** hospedagem do repositório.
 
----
+## ⚙️ Como executar
 
-## Conceitos de POO Aplicados
+### Pré-requisitos
 
-- **Encapsulamento**: uso de atributos privados com getters e setters
-- **Heranca**: especializacao da classe `Loja`
-- **Polimorfismo**: sobrescrita de metodos como `toString()`
-- **Associacao**: relacionamento entre Loja, Endereco e Data
+- Java Development Kit instalado;
+- Git;
+- uma IDE Java compatível.
 
----
+### Clonar o repositório
 
-## Regras e Logica do Sistema
+```bash
+git clone https://github.com/NatanLuz/DesafioLAB1JAVA.git
+cd DesafioLAB1JAVA
+```
 
-- Cada loja possui endereco e data de fundacao associados
-- Produtos sao gerenciados dentro de cada loja
-- Verificacao de validade e feita com base em comparacao de datas
-- A loja de informatica com maior seguro e identificada por comparacao de valores
-- O sistema opera com arrays para controle de dados em memoria
+### Importar em uma IDE
 
----
+Importe a pasta clonada como projeto Java em uma das seguintes IDEs:
 
-## Estrutura do Projeto
+- IntelliJ IDEA;
+- Eclipse;
+- NetBeans.
+
+### Iniciar a aplicação
+
+Localize e execute a classe:
+
+```text
+src/Principal.java
+```
+
+Após a inicialização, utilize o menu exibido no console para cadastrar lojas, gerenciar produtos e consultar as informações.
+
+## 📂 Estrutura do projeto
+
+O código-fonte fica no diretório `src/`, com as classes principais, as subclasses de loja e o ponto de entrada:
 
 ```text
 .
@@ -88,49 +114,29 @@ A arquitetura utiliza:
 │   └── Principal.java
 ```
 
----
+- `Loja.java`: classe base das lojas;
+- `Produto.java`: representação dos produtos;
+- `Endereco.java`: dados de endereço;
+- `Data.java`: representação e comparação de datas;
+- `subclasses/`: especializações de `Loja`;
+- `Principal.java`: ponto de entrada e menu interativo.
 
-## Tecnologias Utilizadas
+## 🌐 Deploy
 
-- **Java**: linguagem principal
-- **POO (Programacao Orientada a Objetos)**: base do sistema
-- **Git/GitHub**: versionamento
+O projeto é uma aplicação Java para execução local e não possui deploy web. Pode ser executado em qualquer ambiente com um JDK compatível e os arquivos do projeto disponíveis.
 
----
+Para distribuição futura, a aplicação poderá ser empacotada como um arquivo executável Java. Esse empacotamento ainda não faz parte da versão atual.
 
-## Como Executar
+## 👤 Autor
 
-### 1) Clonar o repositorio
+**Natan Da Luz**
 
-```bash
-git clone https://github.com/NatanLuz/DesafioLAB1JAVA.git
-cd DesafioLAB1JAVA
-```
+- LinkedIn: [linkedin.com/in/natandaluz](https://www.linkedin.com/in/natandaluz/)
 
-### 2) Importar na IDE
+- Portfólio: [portfolionatan.vercel.app](https://portfolionatan.vercel.app/)
 
-- Eclipse
-- IntelliJ IDEA
-- NetBeans
+- E-mail: [natandaluz01@gmail.com](mailto:natandaluz01@gmail.com)
 
-### 3) Compilar e executar
+## 📄 Licença
 
-- Executar a classe `Principal.java`
-- Utilizar o menu interativo no console para:
-  - Cadastrar lojas
-  - Gerenciar produtos
-  - Visualizar relatorios
-
----
-
-## Autor 
-
-Natan Da Luz
-
-Desenvolvedor Backend 
-
-Contato:
-
-LinkedIn: https://www.linkedin.com/in/natan-da-luz-3156582a2/
-
-E-mail: natandaluz01@gmail.com
+Este projeto está sem uma licença definida no momento.
