@@ -55,10 +55,6 @@ A classe `Loja` é especializada nas seguintes subclasses:
 - a loja de informática com o maior seguro é identificada pela comparação dos valores;
 - os dados permanecem em memória durante a execução.
 
-## 🖼️ Screenshots
-
-O projeto não possui capturas de tela no momento. Imagens do menu interativo e de exemplos de execução poderão ser adicionadas futuramente.
-
 ## 🚀 Tecnologias
 
 - **Java:** implementação da aplicação;
