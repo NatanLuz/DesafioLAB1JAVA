@@ -1,4 +1,4 @@
-# Sistema de Gerenciamento de Lojas - ShoppingCenter (Java)
+# Sistema de Gerenciamento de Lojas | ShoppingCenter
 
 ## 📖 Sobre o projeto
 
